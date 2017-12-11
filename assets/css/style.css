@@ -13,7 +13,7 @@
 }
 
 .one{
-    margin: 50px;
+    margin: 5%;
     float: left;
     position: relative;
     text-align: center;
@@ -30,7 +30,7 @@
 }
 
 .two{
-    margin: 50px;
+    margin: 5%;
     float: right;
     position: relative;
     text-align: center;
@@ -48,7 +48,7 @@
 }
 
 .three{
-    margin: 50px;
+    margin: 5%;
     float: left;
     position: relative;
     text-align: center;
@@ -65,7 +65,7 @@
 }
 
 .four{
-    margin: 50px;
+    margin: 5%;
     float: right;
     position: relative;
     text-align: center;
@@ -87,7 +87,7 @@
 }
 .five{
     float: left;
-    margin: 50px;
+    margin: 5%;
     position: relative;
     text-align: center;
     color: white;
@@ -142,7 +142,7 @@ li {
 
 .footer {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -291,9 +291,179 @@ body{
 }
 
 
+@media only screen and (max-width:980px)
+{
+
+    .aboutme{
+        margin-left: 110px;
+        width: 400px;
+    }
+.header{
+    width: 980px;
+}
+.name{ margin-left: 110px;
+}
+
+.links{ margin-left:-50px;}
+
+.contact{
+    margin-left: 110px;
+    width: 350px;
+}
+.insidecontact{
+    margin-left: -20px;
+    width: 300px;
+}
+.connectwithme{
+    width:225px;
+    left: 73%;
+
+}
+
+.portfolio{
+    padding: 0;
+    width: 320px;
+    height: 500px;
+    margin-left: 110px;
+}
+
+.portfolioimages{
+    width: 300px;
+    height: 500px;
+}
+
+.footer{
+    position: fixed;
+    top: 90%;
+    width: 100%;
+}
 
 
 
+}
+
+@media only screen and (max-width:768px){
+
+.contact{
+    padding-top: 0px;
+    margin-left: 15px;
+    width: 600px;    
+    height: 400px;
+
+}
+
+.insidecontact{
+width: 528px;
+    height: 200px;
+}
+
+.header{
+    width: 768px;
+}
+
+.name{
+    margin-left: 15px;
+    width: 250px;   
+    
+
+}
+
+.connectwithme{
+    margin-top: 10%;
+    margin-bottom: 100px;
+    padding-left:0px;
+    width: 525px;
+    top: 75%;
+    left: 3%;
+}
+
+.portfolio{
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 700px;
+    height: 800px;
+}
+
+.portfolioimages{
+
+    padding: 0px;
+    width: 700px;
+    height: 800px;
+}
+.footer{
+    position: fixed;
+    top: 90%;
+    width: 100%;
+}
+
+.aboutme{
+    margin-left: 10px;
+    width: 600px;
+    height: 400px;
+
+}
+.contact{
+    
+    width: 300px;
+    float: left;
+}
+
+.insidecontact{
+    
+    width: 300px;
+    float: left;
+}
+
+   
+}
+
+
+
+
+@media only screen and (max-width: 640px){
+
+.header{
+
+}
+.name{ position: absolute;
+    top: 5;
+    width: 35%;
+}
+ul{
+    width: 100%;
+    margin-top: 10%;
+
+}
+li{
+    width: 25%;
+   
+}
+.contact{
+margin-left: 10px;
+  width: 400px;
+  height: 300px;
+}
+.insidecontact{
+    margin-left: -20px;
+    width:400px;
+    height: 300px;
+}
+
+.connectwithme{
+    position: absolute;
+    top: %;}
+
+.aboutme{
+    margin-top: 7%;
+    width: 400px;
+    height: 300px;
+    top: 90%;
+}
+
+
+
+
+}
 
 
 
