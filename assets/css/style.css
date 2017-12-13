@@ -80,11 +80,7 @@
     height: auto;
     color: white;
 }
-.relative{
-    position: relative;
-    width: 960px;
-    height: auto;
-}
+
 .five{
     float: left;
     margin: 5%;
@@ -142,7 +138,7 @@ li {
 
 .footer {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    position: relative;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -322,14 +318,59 @@ body{
 
 .portfolio{
     padding: 0;
-    width: 320px;
-    height: 500px;
+    width: 40%;
+    height: 75%;
     margin-left: 110px;
 }
 
 .portfolioimages{
-    width: 300px;
-    height: 500px;
+    width: 75%;
+    height: 75%;
+
+}
+
+.one{
+    width: 80%;
+    display: block;
+
+}
+.two{
+    float: left;
+    margin-left:5%;
+    width: 80%;
+    display: block;
+
+}
+.three{
+    width: 80%;
+    float: left;
+    display: block;
+}
+.four{
+    width: 80%;
+    float: left;
+    display: block;
+}
+.five{
+    width: 80%;
+    float: left;
+    display: block;
+}
+
+.insideone{
+    margin-left:15%;
+}
+.insidetwo{
+    margin-left:15%;
+}
+.insidethree{
+    margin-left:15%;
+}
+.insidefour{
+    margin-left:15%;
+}
+.insidefive{
+    margin-left:15%;
 }
 
 .footer{
@@ -343,6 +384,18 @@ body{
 }
 
 @media only screen and (max-width:768px){
+
+.portfolio{
+    margin-left: 5%;
+    width: 50%;
+    
+}
+
+.insideportfolio{
+    height: 40%;
+    margin: 5%;
+    width: 100%;
+}
 
 .contact{
     padding-top: 0px;
@@ -368,28 +421,60 @@ width: 528px;
 
 }
 
+.one{
+    width: 40%;
+    display: inline-block;
+
+}
+.two{
+    float: left;
+    margin-left:5%;
+    width: 40%;
+    display: inline-block;
+
+}
+.three{
+    width: 40%;
+    float: left;
+    display: inline-block;
+}
+.four{
+    width: 40%;
+    float: left;
+    display: inline-block;
+}
+.five{
+    width: 40%;
+    float: left;
+    display: inline-block;
+}
+
+.insideone{
+    margin-left:0%;
+}
+.insidetwo{
+    margin-left:0%;
+}
+.insidethree{
+    margin-left:0%;
+}
+.insidefour{
+    margin-left:0%;
+}
+.insidefive{
+    margin-left:0%;
+}
+
 .connectwithme{
-    margin-top: 10%;
+    margin-top: 20%;
     margin-bottom: 100px;
     padding-left:0px;
     width: 525px;
-    top: 75%;
-    left: 3%;
+    top: 100%;
+    left: 10%;
 }
 
-.portfolio{
-    margin-top: 10px;
-    margin-left: 50px;
-    width: 700px;
-    height: 800px;
-}
 
-.portfolioimages{
-
-    padding: 0px;
-    width: 700px;
-    height: 800px;
-}
 .footer{
     position: fixed;
     top: 90%;
@@ -441,7 +526,7 @@ li{
 .contact{
 margin-left: 10px;
   width: 400px;
-  height: 300px;
+  height: 90%;
 }
 .insidecontact{
     margin-left: -20px;
@@ -449,9 +534,8 @@ margin-left: 10px;
     height: 300px;
 }
 
-.connectwithme{
-    position: absolute;
-    top: %;}
+
+
 
 .aboutme{
     margin-top: 7%;
@@ -460,8 +544,62 @@ margin-left: 10px;
     top: 90%;
 }
 
+.portfolio{
+    margin-top: 0%;
+    clear: both;
+    width: 30%;
 
+}
 
+.insideportfolio{
+width: 100%;
+
+}
+
+.one{
+   width: 100%;
+
+}
+.two{
+    float: left;
+    margin-left:5%;
+   width: 100%;
+
+}
+.three{
+   width: 100%;  float: left;
+  
+}
+.four{
+   width: 100%;  float: left;
+  
+}
+.five{
+   width: 100%;  float: left;
+  
+}
+
+.insideone{
+    margin-left:12%;
+}
+.insidetwo{
+    margin-left:12%;
+}
+.insidethree{
+    margin-left:12%;
+}
+.insidefour{
+    margin-left:12%;
+}
+.insidefive{
+    margin-left:12%;
+}
+
+.connectwithme{
+    top: 145%;
+    margin-left: 1%;
+    
+}
 
 }
 
