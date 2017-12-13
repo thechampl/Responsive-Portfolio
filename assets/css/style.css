@@ -267,9 +267,24 @@ li a:hover:not(.active) {
     height: auto;
     margin-right: 25%;
     float: right;
-   
+
     
 
+}
+
+.connectwithmeportfolio{    
+        text-align: center;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        position: absolute;
+        top: 120px;
+        right: 0;
+        color: #4aaaa5;
+        display: block;
+        background-color: white;
+        width: 270px;
+        height: auto;
+        margin-right: 25%;
+        float: right;
 }
 
 .connectwithmeinside{
@@ -315,6 +330,10 @@ body{
     left: 73%;
 
 }
+
+.connectwithmeportfolio{
+    width:225px;
+    left: 73%;}
 
 .portfolio{
     padding: 0;
@@ -474,6 +493,14 @@ width: 528px;
     left: 10%;
 }
 
+.connectwithmeportfolio{
+    margin-top: 20%;
+    margin-bottom: 100px;
+    padding-left:0px;
+    width: 525px;
+    top: 100%;
+    left: 10%;
+}
 
 .footer{
     position: fixed;
@@ -595,9 +622,12 @@ width: 100%;
     margin-left:12%;
 }
 
-.connectwithme{
-    top: 145%;
-    margin-left: 1%;
+.connectwithmeportfolio{
+    top: 140%;
+    margin-right: 40%;
+    margin-top: 28%;
+    margin-bottom: 20%;
+
     
 }
 
